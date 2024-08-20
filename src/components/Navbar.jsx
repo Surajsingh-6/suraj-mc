@@ -12,7 +12,7 @@ function Navbar() {
   
   return (
     <>
-        <div className="a1 h-12 w-[90%]  bg-[#ffffff1b] backdrop-filter backdrop-blur-lg shadow-sm shadow-[#000000] z-10 absolute top-0 left-0 right-0 mx-auto mt-5 flex justify-between items-center rounded-3xl px-3 pb-2">
+        <div className="a1 h-12 w-[90%]  bg-[#ffffff1b] backdrop-filter backdrop-blur-lg shadow-sm shadow-[#000000] z-10 fixed top-0 left-0 right-0 mx-auto mt-5 flex justify-between items-center rounded-3xl px-3 pb-2">
           <div onClick={menu} className='bg-[url("/menu.png")]  h-10 w-12 bg-cover bg-no-repeat'></div>
           <div className="pt-1">
             <img src="/mc.svg" alt="lOgO" width="160rem" />
