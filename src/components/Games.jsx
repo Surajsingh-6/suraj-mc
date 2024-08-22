@@ -3,7 +3,7 @@ import React from "react";
 function Games() {
     const data = [
         {
-            img: "/public/1.jpg",
+            img: "/1.jpg",
             title: "Minecraft java & bedrock",
             tags: "sandbox survival, Adventure",
             subtags: "single-player + multiplayer",
