@@ -5,7 +5,8 @@ import Games from './components/Games'
 import Footer from './components/Footer'
 function App() {
   return (
-    <div >
+
+    <div className='bg-[#171615]'>
       <Navbar />
       <Main/>
       <Games/>
