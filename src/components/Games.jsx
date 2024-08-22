@@ -33,8 +33,8 @@ function Games() {
                 DISCOVER OUR GAMES
             </div>
             <div>
-                {data.map((items) => (
-                    <div className=" mt-2 w-full min-h-[65vh] ">
+                {data.map((items,index) => (
+                    <div key={index} className=" mt-2 w-full min-h-[65vh] ">
                         <hr className="border-[#524e4ec2] border-t-2 w-5/6 mx-auto my-8"/>
                         <img src={items.img} alt="Java and Bedrock" className=" w-10/12 m-auto my-4 mt-8 " />
                         <div className="font-extralight text-3xl">{items.title}</div>
