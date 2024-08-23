@@ -38,3 +38,10 @@ a{
     font-style: normal;
   }
   
+  .top-right-shadow {
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5) inset;
+  }
+.top-right{
+    border-top: #242322 4px solid;
+    border-right: #242322 4px solid;
+}  
