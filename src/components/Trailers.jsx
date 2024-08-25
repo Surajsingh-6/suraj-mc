@@ -28,8 +28,8 @@ function Trailers() {
         }
     ];
     return (
-        <div className="min-h-screen w-ful">
-            <div className=" jersey-10-regular text-5xl my-12  h-20 w-full  mx-auto text-white text-center">GAMEPLAY trailers</div> 
+        <div className="min-h-screen w-full">
+            <div className=" jersey-10-regular text-5xl my-12  h-20 w-full  mx-auto text-white text-center lg:text-8xl">GAMEPLAY TRAILERS</div> 
             {sectionsData.map((section, index) => (
                 <Sections key={index} {...section} />
             ))}
