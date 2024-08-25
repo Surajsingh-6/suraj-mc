@@ -28,7 +28,7 @@ function Footer() {
   return (
 
     <div className='text-white '>
-        <div className='footer1 min-h-24 w-full bg-[#111111] flex items-center flex-wrap '>
+        <div className='footer1 min-h-24 w-full bg-[#111111] flex items-center flex-wrap lg:justify-around '>
             {info.map((item,index)=>( 
                 <div key={index} className='  min-w-12 m-3'>
                     <div className='text-xl text-white my-2'>{item.title}</div>
@@ -40,7 +40,7 @@ function Footer() {
                 </div>
             ))}
         </div>
-        <div className='footer2 min-h-16 bg-[rgb(46,45,45)] font-sans w-full text-xs text-[#ffffff] flex flex-wrap items-center'>
+        <div className='footer2 min-h-16 bg-[rgb(46,45,45)] font-sans w-full text-xs text-[#ffffff] flex lg:justify-center flex-wrap items-center'>
             {data.map((item)=>(
                 <div className='mx-2'>{item}</div>
             ))}

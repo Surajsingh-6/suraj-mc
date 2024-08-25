@@ -12,15 +12,23 @@ function Navbar() {
 
     return (
         <>
-            <div className="a1 h-12 w-[90%]  bg-[#ffffff1b] backdrop-filter backdrop-blur-lg shadow-sm shadow-[#000000] z-10 fixed top-0 left-0 right-0 mx-auto mt-5 flex justify-between items-center rounded-3xl px-3 pb-2">
+            <div className="a1 lg:px-12  h-12 w-[90%] bg-[#ffffff1b] backdrop-filter backdrop-blur-lg shadow-sm shadow-[#000000] z-10 fixed top-0 left-0 right-0 mx-auto mt-5 flex justify-between items-center rounded-3xl px-3 pb-2">
                 <div
                     onClick={menu}
-                    className='bg-[url("/menu.png")]  h-10 w-12 bg-cover bg-no-repeat'
+                    className='bg-[url("/menu.png")] lg:hidden  h-10 w-12 bg-cover bg-no-repeat'
                 ></div>
                 <div className="pt-1">
                     <img src="/mc.svg" alt="lOgO" width="160rem" />
                 </div>
-                <div className='bg-[url("/search.png")] h-10 w-12 bg-cover bg-no-repeat'></div>
+                <div className='hidden lg:flex '>
+                    <ul className="flex gap-16 pt-1 text-[#fff] jersey-10-regular text-3xl justify-evenly" >
+                        <li><a href="Home">Home</a></li>
+                        <li><a href="Home">Products</a></li>
+                        <li><a href="Home">About</a></li>
+                        <li><a href="Home">Contact</a></li>
+                    </ul>
+                 </div >
+                <div className='bg-[url("/search.png")] h-10 w-12 bg-cover bg-no-repeat lg:hidden'></div>
             </div>
             <div
                 id="menu"

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Main() {
   return (
-    <div className='h-screen w-full bg-[url("/bg.webp")] bg-cover bg-no-repeat bg-center flex justify-center items-center flex-col text-white text-5xl px-8 gap-4 text-center jersey-10-regular  font-bold'>
+    <div className='h-screen w-full bg-[url("/bg.gif")] bg-cover bg-no-repeat bg-center flex justify-center items-center flex-col text-white text-5xl px-8 gap-4 text-center jersey-10-regular  font-bold'>
         <div>PLay Minecraft with your friends</div>
         <div>Get the best experience</div>
         <div>Join our server</div>
